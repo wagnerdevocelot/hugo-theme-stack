@@ -1,9 +1,10 @@
 ---
-title: "Test"
-description: "This is a example category"
-slug: "test"
-image: "hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg"
+title: Front-End
+description: ''
+slug: Front-End
+image: ''
 style:
-    background: "#2a9d8f"
-    color: "#fff"
+  background: "#3A86FF"
+  color: "#fff"
+
 ---
