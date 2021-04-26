@@ -14,7 +14,7 @@
         &.current {
             font-weight: bold;
             background-color: var(--card-background-selected);
-            color: var(--card-text-color-main);
+            color: var(--title-text-color-main);
         }
 
         color: var(--card-text-color-secondary);
