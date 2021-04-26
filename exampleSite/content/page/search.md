@@ -1,7 +1,7 @@
 ---
-title: Buscar
-slug: buscar
-layout: buscar
+title: "Search"
+slug: "search"
+layout: "search"
 outputs:
 - html
 - json
