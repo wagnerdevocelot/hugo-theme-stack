@@ -59,7 +59,7 @@
 .article-title {
     font-weight: 600;
     margin: 10px 0;
-    color: var(--card-text-color-main);
+    color: var(--title-text-color-main);
     font-size: 2.2rem;
 
     @media (min-width: $on-desktop-large) {
@@ -67,10 +67,10 @@
     }
 
     a {
-        color: var(--card-text-color-main);
+        color: var(--title-text-color-main);
 
         &:hover {
-            color: var(--card-text-color-main);
+            color: var(--title-text-color-main);
         }
     }
 
@@ -252,7 +252,7 @@
         .article-title {
             font-size: 2.2rem;
             font-weight: 500;
-            color: var(--card-text-color-main);
+            color: var(--title-text-color-main);
 
             @media (max-width: $on-phone) {
                 font-size: 2rem;
