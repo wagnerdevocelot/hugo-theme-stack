@@ -1,5 +1,5 @@
 ---
-baseurl: https://example.com
+baseurl: https://vapordev.netlify.app/
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
