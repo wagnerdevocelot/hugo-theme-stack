@@ -1,13 +1,13 @@
 ---
-title: "Buscar"
-slug: "buscar"
-layout: "buscar"
+title: "Busca"
+slug: "search"
+layout: "search"
 outputs:
 - html
 - json
 menu:
   main:
     weight: 2
-    pre: buscar
+    pre: search
 
 ---
