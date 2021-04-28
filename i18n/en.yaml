@@ -1,53 +1,53 @@
 toggleMenu:
-    other: Toggle Menu
+    other: Alternar Menu
 
 darkMode:
-    other: Unit-01 初号機 Mode
+    other: Modo Escuro
 
 list:
     page:
-        one: "{{ .Count }} page"
-        other: "{{ .Count }} pages"
+        one: "{{ .Count }} página"
+        other: "{{ .Count }} páginas"
 
     section:
-        other: Section
+        other: Seção
 
     subsection:
-        one: Subsection
-        other: Subsections
+        one: Subseção
+        other: Subseções
 
 article:
     relatedContents:
-        other: Related contents
+        other: Conteúdos Relacionados
     lastUpdatedOn:
-        other: Last updated on
+        other: Última atualização em
 
 notFound:
     title:
-        other: Not Found
+        other: Não Encontrado
     subtitle:
-        other: This page does not exist.
+        other: Esta página não existe.
 
 widget:
     archives:
         title:
-            other: Archives
+            other: Arquivos
         more:
-            other: More
+            other: Mais
     tagCloud:
         title:
             other: Tags
 
 search:
     title:
-        other: Search
+        other: Busca
     placeholder:
-        other: Type something...
+        other: Digite algo...
     resultTitle:
-        other: "#PAGES_COUNT pages (#TIME_SECONDS seconds)"
+        other: "#PAGES_COUNT páginas (#TIME_SECONDS segundos)"
 
 footer:
     builtWith:
-        other: Built with {{ .Generator }}
+        other: Criado com {{ .Generator }}
     designedBy:
-        other: Theme {{ .Theme }} designed by {{ .DesignedBy }}
+        other: Tema {{ .Theme }} desenvolvido por {{ .DesignedBy }}
