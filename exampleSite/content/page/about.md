@@ -28,8 +28,6 @@ Developer as:
     Rails
     Angular
 
-![](/uploads/g2nfnxil-jpg-medium.jpeg)
-
 [Twitter](https://twitter.com/Vapordev1 "Twitter")
 
 [Linkedin](https://www.linkedin.com/in/wagner-abrantes-6b30a118b/ "Linkedin")
