@@ -1,0 +1,26 @@
+---
+label: https://dev.to/vapordev/shin-programming-tensei-32d
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: text
+  name: slug
+  label: slug
+- type: text
+  name: image
+  label: image
+- type: field_group
+  name: style
+  label: style
+  fields:
+  - type: text
+    name: background
+    label: background
+  - type: text
+    name: color
+    label: color
