@@ -1,0 +1,22 @@
+---
+label: go
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: description
+  label: description
+- type: datetime
+  name: date
+  label: date
+- type: list
+  name: aliases
+  label: aliases
+- type: text
+  name: license
+  label: license
+- type: datetime
+  name: lastmod
+  label: lastmod
