@@ -24,7 +24,7 @@ params:
     lastUpdated: Jan 02, 2006 15:04 MST
   sidebar:
     emoji: "\U0001F365"
-    subtitle: O que eu estiver aprendendo você vai aprender também.
+    subtitle: Sem tretas aqui, apenas conteúdo técnico.
     avatar:
       local: true
       src: img/perfil.jpeg
