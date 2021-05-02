@@ -6,11 +6,10 @@ slug: golang-postgres
 image: postgresgo.jpg
 categories:
 - Back-End
-tags = [
-    "Go",
-    "PostgreSQL"
-	"SQL"
-]
+tags:
+- Go
+- PostgreSQL
+- SQL
 ---
 
 ## Nem tudo precisa ser na CLI - Instalando o PostgreSQL e o pgAdmin4
