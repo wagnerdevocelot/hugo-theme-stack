@@ -13,9 +13,9 @@ permalinks:
 params:
   mainSections:
   - post
-  featuredImageField: image
+  featuredImageField: img/perfil.jpeg
   rssFullContent: true
-  favicon:
+  favicon: img/perfil.jpeg
   footer:
     since: 2020
     customText:
@@ -34,7 +34,7 @@ params:
       enabled: true
       default: Licensed under CC BY-NC-SA 4.0
   comments:
-    enabled: true
+    enabled: false
     provider: disqus
     utterances:
       repo:
