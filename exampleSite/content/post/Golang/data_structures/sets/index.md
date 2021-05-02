@@ -1,10 +1,3 @@
-{% block extrahead %}
-  <meta property="og:image" content="<url>" />
-  <meta property="og:image:type" content="keys.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-{% endblock %}
-
 ---
 title: Como implementar um Set
 description: Estrutura de dados Set
@@ -17,6 +10,14 @@ categories:
 tags:
 - Go
 - Estrutura de Dados
+
+{% block extrahead %}
+  <meta property="og:image" content="<url>" />
+  <meta property="og:image:type" content="keys.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+{% endblock %}
+
 ---
 
 
