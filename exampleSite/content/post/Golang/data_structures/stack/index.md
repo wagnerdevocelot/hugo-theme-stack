@@ -14,8 +14,6 @@ tags:
 
 <meta property="og:image" content="<url>" />
 <meta property="og:image:type" content="stacks.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
 
 
 Uma Stack é a estrutura de "último a entrar, primeiro a sair" (last in last out), na qual os itens são adicionados a partir do topo. As stacks são usadas em parsers para resolver algoritmos de labirinto. Push, pop, top e get size são as operações típicas permitidas nas estruturas de dados da stack. Parsing de sintaxe, backtracking e gerenciamento de memória de tempo de compilação são alguns cenários da vida real onde as stacks podem ser usadas.

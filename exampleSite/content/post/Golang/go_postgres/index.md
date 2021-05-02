@@ -15,8 +15,6 @@ tags:
 
 <meta property="og:image" content="<url>" />
 <meta property="og:image:type" content="postgresgo.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
 
 ## Nem tudo precisa ser na CLI - Instalando o PostgreSQL e o pgAdmin4
 

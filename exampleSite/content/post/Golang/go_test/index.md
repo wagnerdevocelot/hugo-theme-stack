@@ -14,8 +14,6 @@ tags:
 
 <meta property="og:image" content="<url>" />
 <meta property="og:image:type" content="test.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
 
 
 É muito provável que você já tenha ouvido falar de testes então vamos dar uma molhada nos pés aqui.

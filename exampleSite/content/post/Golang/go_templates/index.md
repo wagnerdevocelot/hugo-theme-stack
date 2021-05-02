@@ -14,8 +14,6 @@ tags:
 
 <meta property="og:image" content="<url>" />
 <meta property="og:image:type" content="templates.jpg" />
-<meta property="og:image:width" content="1200" />
-<meta property="og:image:height" content="630" />
 
 
 Um template nos permite criar um documento e em seguida, mesclar dados com ele.
