@@ -12,12 +12,10 @@ tags:
 - Estrutura de Dados
 ---
 
-{% block extrahead %}
-  <meta property="og:image" content="<url>" />
-  <meta property="og:image:type" content="keys.jpg" />
-  <meta property="og:image:width" content="1200" />
-  <meta property="og:image:height" content="630" />
-{% endblock %}
+<meta property="og:image" content="<url>" />
+<meta property="og:image:type" content="keys.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
 
 
 Um _Set_ é uma estrutura de dados linear que possui uma coleção de valores que não se repetem. Um _Set_ pode
