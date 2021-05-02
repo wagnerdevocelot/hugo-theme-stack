@@ -4,7 +4,6 @@ languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 title: vapordev A.T. フィールド
-favicon: img/favicon.png
 disqusShortname: hugo-theme-stack
 googleAnalytics:
 DefaultContentLanguage: en
@@ -16,7 +15,7 @@ params:
   - post
   featuredImageField: image
   rssFullContent: true
-  favicon:
+  favicon: img/favicon.png
   footer:
     since: 2020
     customText:
