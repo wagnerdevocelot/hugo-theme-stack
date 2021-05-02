@@ -5,11 +5,13 @@ date: 2021-05-02
 slug: golang-postgres
 image: postgresgo.jpg
 categories:
-- Go
-- PostgreSQL
-
+- Back-End
+tags = [
+    "Go",
+    "PostgreSQL"
+	"SQL"
+]
 ---
-# Como se conectar ao PostgreSQL usando Golang
 
 ## Nem tudo precisa ser na CLI - Instalando o PostgreSQL e o pgAdmin4
 
