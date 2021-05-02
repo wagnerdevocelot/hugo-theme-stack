@@ -12,6 +12,12 @@ tags:
 - Testes Unitários
 ---
 
+<meta property="og:image" content="<url>" />
+<meta property="og:image:type" content="test.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+
+
 É muito provável que você já tenha ouvido falar de testes então vamos dar uma molhada nos pés aqui.
 
 O teste em si serve pra você verificar a integridade do seu software e por meio desse garantir que funcione sem ou com o mínimo de efeitos colaterais. Em outras palavras, você precisa garantir que seu código faz o que você diz que ele faz.
