@@ -5,7 +5,7 @@ date: 2021-05-02
 slug: golang-tests
 image: test.jpg
 categories:
-- Back-End
+- Go
 - Testes
 tags:
 - Go

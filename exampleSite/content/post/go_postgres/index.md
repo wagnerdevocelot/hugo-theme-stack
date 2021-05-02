@@ -5,7 +5,8 @@ date: 2021-05-02
 slug: golang-postgres
 image: postgresgo.jpg
 categories:
-- Back-End
+- Go
+- SQL
 tags:
 - Go
 - PostgreSQL
