@@ -10,11 +10,15 @@ menu:
   main:
     weight: 1
     pre: user
-
 ---
+
+<meta property="og:image" content="<url>" />
+<meta property="og:image:type" content="assets/img/perfil.jpeg" />
+
+
 He/Him
 
-About writing fun code! Also speak Portuguese, então vi que tava escrevendo em inglês e os artigos em português, imagina ser assim da cabeça. 
+About writing fun code! Also speak Portuguese, então vi que tava escrevendo em inglês e os artigos em português, imagina ser assim da cabeça.
 
 Atual interesse em programação funcional e além de trabalho tenho interesse em filmes, séries, animes, música esquisita e conhecer pessoas.
 
