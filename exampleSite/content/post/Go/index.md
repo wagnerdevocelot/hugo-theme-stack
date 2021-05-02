@@ -1,4 +1,14 @@
+---
+title: Como se conectar ao PostgreSQL usando Golang
+description: Fazendo queries e se conectando ao banco de dados usando Golang sem ORM
+date: 2021-05-02
+slug:
+image:
+categories:
+- Go
+- PostgreSQL
 
+---
 # Como se conectar ao PostgreSQL usando Golang
 
 ## Nem tudo precisa ser na CLI - Instalando o PostgreSQL e o pgAdmin4
@@ -46,10 +56,10 @@ Aqui só precisamos definir o nome do **_banco_**, que será “MobyDick”, e a
 
 ![](https://cdn-images-1.medium.com/max/800/1*9g-ok78SOYkzWrSTOTF11g.png)
 
-Acompanhe na imagem:  
-- Azul: Clique em cima para selecionar **_MobyDick_**.  
-- Vermelho: Clique no **_Query Tool_** e abrira um console para escrevermos.  
-- Verde: Nossa tabela se chama “article”, terá um “id”, “title” e “body”.  
+Acompanhe na imagem:
+- Azul: Clique em cima para selecionar **_MobyDick_**.
+- Vermelho: Clique no **_Query Tool_** e abrira um console para escrevermos.
+- Verde: Nossa tabela se chama “article”, terá um “id”, “title” e “body”.
 - Rosa: Clique no botão de execução para criar a tabela.
 
 ![](https://cdn-images-1.medium.com/max/800/1*AoPdsBfD8wpndXd_a72wjg.png)
@@ -109,7 +119,7 @@ A estrutura das pastas é assim:
 |	 └── dbconfig
 |		 └── driverConfig.go
 └── main.go
-```	
+```
 
 Você pode escolher o nome que for melhor, mas eu fiz uma pasta diferente para o arquivo *driverConfig.go* pois vou usá-lo como pacote e importar no *main.go* mais a frente.
 
@@ -285,7 +295,7 @@ Output:
 ```text
 Accessing MobyDick ... Connected!
 
-1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea 
+1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea
 ```
 
 ## SELECT BY ID
@@ -386,8 +396,8 @@ A saida após feito o insert e utilizado _select_ novamente.
 Output:
 ```text
 Accessing MobyDick ... Connected!
-1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea 
-5	Maps in Golang	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium 
+1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea
+5	Maps in Golang	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
 ```
 
 ## UPDATE
@@ -420,7 +430,7 @@ func sqlUpdate() {
 }
 ```
 
-Temos a mesma estrutura agora porém com apenas dois argumentos no *updade.Exec* o *body* e o *id* da linha que queremos modificar na tabela. 
+Temos a mesma estrutura agora porém com apenas dois argumentos no *updade.Exec* o *body* e o *id* da linha que queremos modificar na tabela.
 
 O identificador no final das contas ajuda muito nas buscas quando precisamos editar algo pois é mais fácil de usar como referência.
 
@@ -437,8 +447,8 @@ Aqui vou dar mais um _SELECT_ pra mostrar o resultado da tabela após as altera�
 Output:
 ```text
 Accessing MobyDick ... Connected!
-1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea 
-5	Maps in Golang	But I must explain to you how all this mistaken idea 
+1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea
+5	Maps in Golang	But I must explain to you how all this mistaken idea
 ```
 
 ## DELETE
@@ -482,7 +492,7 @@ Chamando o _SELECT_ após as alterações.
 Output:
 ```text
 Accessing MobyDick ... Connected!
-1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea 
+1	Golang + PostgreSQL	But I must explain to you how all this mistaken idea
 ```
 
 Sobrou apenas a linha original.
