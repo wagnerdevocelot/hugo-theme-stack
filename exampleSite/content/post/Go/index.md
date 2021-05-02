@@ -2,8 +2,8 @@
 title: Como se conectar ao PostgreSQL usando Golang
 description: Fazendo queries e se conectando ao banco de dados usando Golang sem ORM
 date: 2021-05-02
-slug:
-image:
+slug: golang-postgres
+image: postgresgo.jpg
 categories:
 - Go
 - PostgreSQL
