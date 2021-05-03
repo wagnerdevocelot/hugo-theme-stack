@@ -53,7 +53,7 @@ params:
       limit: 5
     tagCloud:
       limit: 10
-  opengraph: img/perfil.jpeg
+  opengraph:
     twitter:
       site:
       card: summary_large_image
