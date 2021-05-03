@@ -1,5 +1,5 @@
 ---
-title: Big O Botation
+title: Big O Notation
 description: Entendendo complexidade de Algoritimos
 date: 2021-05-02
 slug: bigo-notation
