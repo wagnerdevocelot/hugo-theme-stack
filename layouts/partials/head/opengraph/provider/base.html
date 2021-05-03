@@ -5,8 +5,6 @@
 <meta property='og:description' content='{{ $description }}'>
 <meta property='og:url' content='{{ .Permalink }}'>
 <meta property='og:site_name' content='{{ .Site.Title }}'>
-<meta property="og:image" content="<url>" />
-<meta property="og:image:type" content="assets/img/perfil.jpeg" />
 <meta property='og:type' content='
     {{- if .IsPage -}}
         article
@@ -41,5 +39,5 @@
 
 {{ $image := partialCached "helper/image" (dict "Context" . "Type" "opengraph") .RelPermalink "opengraph" }}
 {{- if $image.exists -}}
-    <meta property='og:image' content='{{ absURL "assets/img/perfil.jpeg" }}' />
+    <meta property='og:image' content='{{ absURL $image.permalink }}' />
 {{- end -}}
